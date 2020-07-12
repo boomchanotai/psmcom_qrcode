@@ -1,0 +1,97 @@
+.loginpage{
+    height: 100vh;
+    background-image: url(../img/cir-topright.svg), url(../img/cir-bottom.svg);
+    background-repeat: no-repeat;
+    background-position: top right, bottom center;
+    background-size: auto, 100%;
+    background-color: #102239;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding-top: 50px;
+}
+
+.loginpage *{
+    font-family: "Montserrat-SemiBold", "Kanit-Medium";
+}
+
+.logo{
+    text-align: center;
+}
+
+.logo img{
+    width: 70%;
+}
+
+.form-contain label{
+    padding-left: 10px;
+    color: #FFB3B9;
+}
+
+.form-contain{
+    margin-bottom: 10px;
+}
+
+.form-contain div{
+    margin: 20px;
+}
+
+.form-contain input{
+    width: 100%;
+    margin-top: 5px;
+    padding: 15px 20px;
+    outline: none;
+    border-radius: 50px;
+    border: none;
+}
+
+.loginpage button{
+    cursor: pointer;
+}
+
+button{
+    background-color: #FFB3B9;
+    color: #102239;
+    border-radius: 50px;
+    font-size: 17px;
+    padding: 10px 40px;
+    font-weight: 600;
+    outline: none;
+    border: none;
+}
+
+.forget{
+    color: #ffffff;
+    text-align: center;
+    font-family: "Montserrat-SemiBold";
+}
+
+.forget a{
+    color: #ffffff;
+    text-decoration: underline;
+    font-family: "Montserrat-SemiBold";
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+@media screen and (min-width: 700px){
+    .logo img{
+        width: 350px;
+    }
+}
+
+@media screen and (min-width: 1000px){
+    .loginpage{
+        background: none;
+        background-image: url(../img/bg-desktop.svg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 100%;
+    }
+}

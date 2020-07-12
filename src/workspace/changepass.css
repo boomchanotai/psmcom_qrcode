@@ -1,0 +1,72 @@
+.changepass-container{
+    text-align: center;
+}
+
+.every{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+}
+
+.changepass-container h3{
+    font-family: "Montserrat-SemiBold", "Kanit-Medium";
+    color: #ffffff;
+    font-size: 1.5em;
+    margin-bottom: 15px;
+}
+
+.changepass-container .form-container{
+    margin: 0px auto;
+}
+
+.form-container label{
+    font-size: 1em;
+    color: #FFB3B9;
+    font-weight: 600;
+    text-align: left;
+}
+
+.form-container{
+    margin-bottom: 10px;
+}
+
+.form-container div{
+    margin: 20px;
+}
+
+.form-container input{
+    width: 100%;
+    margin-top: 5px;
+    padding: 15px 20px;
+    outline: none;
+    border-radius: 50px;
+    border: none;
+}
+
+.haha{
+    padding-top: 20px;
+}
+
+.haha button{
+    margin-top: 10px;
+}
+
+.forgetpassword{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding-top: 30%;
+}
+
+.changepass-container button{
+    cursor: pointer;
+}
+
+@media screen and (min-width: 700px){
+    .forgetpassword{
+        padding-top: 10%;
+    }
+}

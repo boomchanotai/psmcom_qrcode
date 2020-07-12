@@ -1,0 +1,266 @@
+.bigcontain{
+    min-height: 70vh;
+    height: 95vh;
+    max-height: 730px;
+    width: 80%;
+    margin: auto;
+    display: grid;
+    grid-gap: 20px;
+    grid-template-rows: 1fr 2fr;
+}
+
+.user-info{
+    background-color: #fff;
+    border-radius: 16px;
+    display: flex;
+    padding: 15px 10px;
+    align-items: center;
+    justify-content: space-around;
+    align-self: flex-end;
+}
+
+.leaderboard{
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 16px;
+}
+
+.user-nameinfo div:nth-child(1){
+    font-size: 4.2vw;
+    font-family: "Montserrat-SemiBold";
+    color: #102239;
+}
+
+.user-nameinfo div:nth-child(2){
+    font-size: 4.2vw;
+    font-weight: 700;
+    color: #FFB3B9;
+}
+
+.user-info hr{
+    transform: rotate(90deg);
+    width: 25%;
+}
+
+.score{
+    display: flex;
+    flex-direction: column;
+    font-weight: 600;
+    font-size: 1.4em;
+    align-items: flex-end;
+    position: relative;
+}
+
+.score::before{
+    content: "";
+    position: absolute;
+    width: 2px;
+    height: 100%;
+    left: -35%;
+    bottom: 0;
+    background-color: #102239;
+}
+
+.ddd{
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: 0.5fr 1fr;
+    align-items: center;
+}
+
+.ddd .icon-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.icons{
+    width: 2.7em;
+    height: 2.7em;
+    background-color: #102239;
+    border-radius: 50px;
+}
+
+.leader-nameinfo div:nth-child(1){
+    font-size: 3.5vw; 
+    font-family: "Montserrat-SemiBold";
+    color: #102239;
+}
+
+.leader-nameinfo div:nth-child(2){
+    font-size: 3.8vw;
+    font-weight: 700;
+    color: #FFB3B9;
+}
+
+.leader-score{
+    display: flex;
+    flex-direction: column;
+    font-weight: 600;
+    font-size: 1.2em;
+    align-items: flex-end;
+    position: relative;
+}
+
+.leader{
+    width: 70%;
+    display: grid;
+    grid-template-columns: 0.4fr 0.4fr 2fr;
+    grid-gap: 0.4em;
+    align-items: center;
+}
+
+.list{
+    display: flex;
+    align-items: center;
+}
+
+.leader-icons{
+    justify-self: flex-end;
+    width: 2.2em;
+    height: 2.2em;
+    background-color: #102239;
+    border-radius: 50px;
+    margin-right: 10px;
+}
+
+.leader-info{
+    height: 45%;
+    width: 100%;
+    background-color: #fff;
+    border-radius: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    align-self: flex-end;
+}
+
+.leader-contain{
+    display: flex;
+    overflow-y: hidden;
+    flex-direction: column;
+    justify-content: start;
+    height: 100%;
+    width: 90%;
+    margin: auto;
+    overflow-y: hidden;
+    padding-top: 5px;
+}
+
+.rank{
+    text-align: center;
+    font-size: 1.2em;
+    font-weight: 600;
+}
+
+.leaders{
+    border-bottom: 2px solid #102239;
+    margin: 10px 0px;
+}
+
+.leaders:nth-last-child(1){
+    border: none;
+}
+
+.leaders:nth-child(1) .rank{
+    color: #A08113;
+}
+.leaders:nth-child(2) .rank{
+    color: #A2A2A2;
+}
+.leaders:nth-child(3) .rank{
+    color: #736150;
+}
+
+.icon-cancel{
+    filter: opacity(0.6);
+}
+
+.name-cancel{
+    position: relative;
+    color: rgba(16, 34, 57, 0.6) !important;
+    width: min-content;
+}
+
+.hi label{
+    font-size: 0.6em;
+}
+
+.name-cancel::before{
+    content: "";
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 115%;
+    height: 2px;
+    background-color: rgba(16, 34, 57, 0.8);
+}
+
+.class-cancel{
+    position: relative;
+    color: #FFB3B9;
+    width: max-content;
+}
+
+.class-cancel::before{
+    content: "";
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 115%;
+    height: 2px;
+    background-color: #FFB3B9;
+}
+
+.leader-contain:nth-last-child() .leaders{
+    border: none !important;
+}
+
+@media screen and (min-width: 700px){
+    .user-info{
+        padding: 15px 30px;
+    }
+    .leader-score{
+        font-size: 1.8em;
+    }
+    .user-nameinfo div:nth-child(1){
+        font-size: 1.8em;
+        font-family: "Montserrat-SemiBold";
+        color: #102239;
+    }
+    
+    .user-nameinfo div:nth-child(2){
+        font-size: 1.8em;
+        font-weight: 700;
+        color: #FFB3B9;
+    }
+    .leader-nameinfo div:nth-child(1){
+        font-size: 1.6em;
+        font-family: "Montserrat-SemiBold";
+        color: #102239;
+    }
+    
+    .leader-nameinfo div:nth-child(2){
+        font-size: 1.6em;
+        font-weight: 700;
+        color: #FFB3B9;
+    }
+    .bigcontain{
+        width: 70%;
+    }
+    .leaderboard{
+        padding: 40px 20px;
+    }
+    .leaders{
+        border-bottom: 2px solid #102239;
+        margin: 20px 0px;
+    }
+    .score{
+        font-size: 1.6em;
+    }
+    .ddd{
+        grid-template-columns: 20% 80%;
+    }
+}

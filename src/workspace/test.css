@@ -1,0 +1,133 @@
+.whole-container{
+    width: 80%;
+    margin: 20px auto;
+}
+
+.whole-container .self-info{
+    background-color: #ffffff;
+    padding: 20px 30px;
+    border-radius: 16px;
+}
+
+.whole-container .Name-icon{
+    display: grid;
+    grid-template-columns: 25% 75%;
+    grid-gap: 20px;
+}
+
+.icon-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.icon-container-sm{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.some-icon{
+    width: 40px;
+    height: 40px;
+    background-color: #102239;
+    border-radius: 50px;
+}
+.some-icon-sm{
+    width: 30px;
+    height: 30px;
+    background-color: #102239;
+    border-radius: 50px;
+}
+
+.self-info{
+    display: grid;
+    grid-template-columns: 75% 25%;
+    grid-gap: 10px;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.self-nameclass div:first-child{
+    font-family: "Montserrat-SemiBold", "Kanit-Medium";
+    color: #102239;
+}
+
+.self-nameclass div:last-child{
+    color: #FFB3B9;
+}
+
+.self-score{
+    text-align: right;
+    border-left: 3px solid #102239;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-weight: 600;
+    font-size: 1.4em;
+}
+
+.listboard{
+    background-color: #ffffff;
+    border-radius: 15px;
+    margin-top: 15px;
+    padding: 20px;
+    height: 60vh;
+    overflow-y: auto;
+}
+
+.inner-info {
+    display: grid;
+    grid-template-columns: 20% 80%;
+    grid-gap: 15px;
+}
+
+.item-userinfo{
+    display: grid;
+    grid-template-columns: 10% 90%;
+}
+
+.rank-place {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2em;
+    font-weight: 600;
+}
+
+.item-rank:nth-child(1) .rank-place{
+    color: #A08113;
+}
+.item-rank:nth-child(2) .rank-place{
+    color: #A2A2A2;
+}
+.item-rank:nth-child(3) .rank-place{
+    color: #736150;
+}
+
+.item-rank{
+    display: grid;
+    grid-template-columns: 85% 15%;
+    padding: 10px 20px;
+    border-bottom: 2px solid #102239;
+}
+
+.rank-score{
+    font-weight: 600;
+    font-size: 1.2em;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.rank-info div:nth-child(1){
+    font-size: 3.5vw; 
+    font-family: "Montserrat-SemiBold", "Kanit-Medium";
+    color: #102239;
+}
+
+.rank-info div:nth-child(2){
+    font-size: 3.8vw;
+    font-weight: 700;
+    color: #FFB3B9;
+}

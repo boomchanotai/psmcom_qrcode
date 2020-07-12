@@ -1,0 +1,29 @@
+.adduser{
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.adduser h3{
+    color: #000000;
+    margin: 20px 0px;
+}
+
+.adduser button{
+    background-color: #000000;
+    color: #ffffff;
+    margin: 15px;
+}
+
+.adduser input,select{
+    margin: 5px;
+    padding: 5px 10px;
+}
+
+.adduser form{
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 40px;
+}

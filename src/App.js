@@ -21,14 +21,7 @@ import ForgetPassword from './workspace/forgetpassword';
 import ExcelDownload from './workspace/data';
 
 var firebaseConfig = {
-  apiKey: "AIzaSyDQhZ6sL3_zaMTfwNj1VmPEHyQxNCO0SSI",
-  authDomain: "psmcom-2c1b9.firebaseapp.com",
-  databaseURL: "https://psmcom-2c1b9.firebaseio.com",
-  projectId: "psmcom-2c1b9",
-  storageBucket: "psmcom-2c1b9.appspot.com",
-  messagingSenderId: "115645224197",
-  appId: "1:115645224197:web:efa457f7add45e1d71d36c",
-  measurementId: "G-3NQ71CN3VZ"
+  // Hi This is Firebase's API
 };
 // Initialize Firebase
 firebase.initializeApp(firebaseConfig);
